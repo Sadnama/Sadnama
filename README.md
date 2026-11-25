@@ -1,7 +1,52 @@
-# FarsiTV public catalog
+<div align="center">
+  <img src="./sadnama.png" width="112" alt="لوگوی صدنما">
+</div>
 
-This repository contains public FarsiTV catalog data and poster assets. The application source is maintained separately in a private repository.
+<div dir="rtl">
 
-`catalog.json` and `posters/` contain the public catalog. A private GitHub Actions workflow checks the source every 30 minutes, updates changed records and poster files, and validates the result before publishing. Periodic ID-only reconciliation detects missing or removed records. GitHub may delay scheduled runs. Playback URLs point to the authorized media host; their presence does not guarantee that every stream is playable.
+# صدنما برای Android TV
 
-`preview.json` is an earlier incomplete numeric-search snapshot retained for comparison.
+صدنما برنامه‌ای فارسی برای تماشای فیلم و سریال با کنترل تلویزیون است. برای نصب، به تلویزیون یا تی‌وی‌باکس با **Android TV یا Google TV، نسخهٔ اندروید ۸ یا بالاتر** نیاز دارید.
+
+**[دانلود آخرین نسخهٔ صدنما برای تلویزیون (APK)](https://github.com/Sadnama/FarsiTV-Catalog/releases/latest/download/SadNama.apk)** · [مشاهدهٔ نسخه‌ها](https://github.com/Sadnama/FarsiTV-Catalog/releases)
+
+## چطور نصب کنم؟
+
+یکی از سه روش زیر را انتخاب کنید. در هر روش، فایل `SadNama.apk` را روی **تلویزیون** باز می‌کنید.
+
+### با فلش USB
+
+1. روی کامپیوتر، از لینک بالای صفحه فایل را دانلود و روی فلش کپی کنید.
+2. فلش را به تلویزیون وصل کنید. از بخش برنامه‌ها، «مدیریت فایل» (File Manager) را باز کنید. اگر مدیر فایل ندارید، می‌توانید یکی از Google Play تلویزیون نصب کنید.
+3. در مدیر فایل، فلش یا «USB» را انتخاب کنید و روی `SadNama.apk` بزنید.
+
+**اگر آیفون دارید**، می‌توانید با Safari فایل را دانلود کنید. فلش سازگار را مستقیم یا با مبدل به آیفون وصل کنید. در برنامهٔ Files، از پوشهٔ Downloads روی فایل نگه دارید و Copy را بزنید. از Browse، فلش را باز کنید و فایل را با Paste آنجا قرار دهید. حالا از گام ۲ ادامه دهید. [راهنمای اتصال فلش به آیفون](https://support.apple.com/en-ie/guide/iphone/iph95baac91f/ios)
+
+### با گوشی اندرویدی و وای‌فای
+
+1. گوشی و تلویزیون را به یک شبکهٔ وای‌فای وصل کنید و روی گوشی فایل صدنما را از بالای همین صفحه بگیرید.
+2. برنامهٔ [Send files to TV](https://play.google.com/store/apps/details?id=com.yablio.sendfilestotv) را از Google Play روی هر دو دستگاه نصب کنید. روی تلویزیون **RECEIVE** (دریافت) را بزنید.
+3. روی گوشی **SEND** (ارسال) را بزنید، فایل `SadNama.apk` را انتخاب کنید و روی نام تلویزیون بزنید.
+4. پس از پایان انتقال، فایل را روی تلویزیون باز کنید. اگر مستقیماً باز نشد، از مدیر فایل تلویزیون وارد پوشهٔ Download شوید و روی فایل بزنید.
+
+### مستقیم با مرورگر تلویزیون
+
+1. اگر تلویزیون مرورگری با قابلیت دانلود دارد، همین صفحه را در آن باز کنید. آدرس صفحه `github.com/Sadnama/FarsiTV-Catalog` است.
+2. روی **دانلود آخرین نسخه** در بالای صفحه بزنید.
+3. پس از پایان دانلود، از بخش Downloads مرورگر یا پوشهٔ Download در مدیر فایل تلویزیون، فایل `SadNama.apk` را باز کنید.
+
+### وقتی پنجرهٔ نصب باز شد
+
+- **اولین نصب** — «نصب» (Install) و سپس «باز کردن» (Open) را بزنید. از دفعات بعد، صدنما را در بخش برنامه‌های تلویزیون پیدا می‌کنید.
+- **اگر صدنما را از قبل دارید** — برنامهٔ قبلی را نگه دارید و «به‌روزرسانی» (Update) را بزنید تا سابقهٔ تماشا و فهرست پخش حفظ شود. برای عبور از نسخهٔ ۱.۰.۸ به نسخه‌های سازمان صدنما، یک‌بار همین نصب دستی لازم است.
+- **اگر تلویزیون اجازهٔ نصب خواست** — در همان پیام، «تنظیمات» را باز کنید و گزینهٔ «اجازه از این منبع» (Allow from this source) را فقط برای برنامه‌ای که فایل را باز کرده فعال کنید. با دکمهٔ بازگشت به فایل برگردید و نصب را ادامه دهید. بعد از نصب می‌توانید این اجازه را بردارید.
+
+[پیام به پشتیبانی صدنما در تلگرام](https://t.me/SadnamaSupport?direct)
+
+<details>
+<summary>دربارهٔ فایل‌های این مخزن</summary>
+
+کاتالوگ عمومی در `catalog.json` و پوسترها در پوشهٔ `posters/` نگه‌داری می‌شوند. کد اپ در مخزن خصوصی جداگانه است. GitHub Actions برای بررسی تغییرات منبع، هر ۳۰ دقیقه زمان‌بندی شده و ممکن است با تأخیر اجرا شود. پیش از انتشار، رکوردها و پوسترهای تغییرکرده بررسی می‌شوند و تطبیق دوره‌ای شناسه‌ها، موارد اضافه یا حذف‌شده را مشخص می‌کند. لینک‌های پخش به میزبان مجاز رسانه اشاره می‌کنند و دسترس‌پذیری هر ویدئو به همان منبع بستگی دارد. فایل `preview.json` نمونهٔ قدیمی و ناقصی از جست‌وجوی عددی برای مقایسه است.
+
+</details>
+</div>
