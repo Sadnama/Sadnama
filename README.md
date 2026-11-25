@@ -8,7 +8,7 @@
 
 صدنما برنامه‌ای فارسی برای تماشای فیلم و سریال با کنترل تلویزیون است. برای نصب، به تلویزیون یا تی‌وی‌باکس با **Android TV یا Google TV، نسخهٔ اندروید ۸ یا بالاتر** نیاز دارید.
 
-**[دانلود آخرین نسخهٔ صدنما برای تلویزیون (APK)](https://github.com/Sadnama/FarsiTV-Catalog/releases/latest/download/SadNama.apk)** · [مشاهدهٔ نسخه‌ها](https://github.com/Sadnama/FarsiTV-Catalog/releases)
+**[دانلود آخرین نسخهٔ صدنما برای تلویزیون (APK)](https://github.com/Sadnama/Sadnama/releases/latest/download/SadNama.apk)** · [مشاهدهٔ نسخه‌ها](https://github.com/Sadnama/Sadnama/releases)
 
 ## چطور نصب کنم؟
 
@@ -31,7 +31,7 @@
 
 ### مستقیم با مرورگر تلویزیون
 
-1. اگر تلویزیون مرورگری با قابلیت دانلود دارد، همین صفحه را در آن باز کنید. آدرس صفحه `github.com/Sadnama/FarsiTV-Catalog` است.
+1. اگر تلویزیون مرورگری با قابلیت دانلود دارد، همین صفحه را در آن باز کنید. آدرس صفحه `github.com/Sadnama/Sadnama` است.
 2. روی **دانلود آخرین نسخه** در بالای صفحه بزنید.
 3. پس از پایان دانلود، از بخش Downloads مرورگر یا پوشهٔ Download در مدیر فایل تلویزیون، فایل `SadNama.apk` را باز کنید.
 
