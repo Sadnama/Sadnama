@@ -10,13 +10,24 @@
 
 **[دانلود آخرین نسخهٔ صدنما برای تلویزیون (APK)](https://github.com/Sadnama/Sadnama/releases/latest/download/SadNama.apk)** · [مشاهدهٔ نسخه‌ها](https://github.com/Sadnama/Sadnama/releases)
 
+<div align="center">
+  <img src="./download-qr.png" width="150" alt="کد دانلود مستقیم آخرین نسخه صدنما">
+  <p>دانلود مستقیم آخرین نسخه با دوربین گوشی</p>
+</div>
+
 ## تصاویری از برنامه
 
-تصاویر زیر از نسخهٔ آزمایشی ۱.۰.۱۴ روی شبیه‌ساز Android TV گرفته شده‌اند.
+تصاویر از نسخهٔ آزمایشی روی شبیه‌ساز Android TV گرفته شده‌اند. نام‌ها، مدت‌ها و فهرست سریال‌ها در تصاویر خانه و قسمت‌ها نمونه هستند.
 
-| جست‌وجو | دربارهٔ ما |
+| خانه | فهرست سریال‌ها |
 | --- | --- |
-| ![صفحه جست‌وجوی صدنما](screenshots/search.png) | ![صفحه دربارهٔ صدنما](screenshots/about.png) |
+| ![صفحه خانه صدنما](screenshots/home.png) | ![فهرست سریال‌ها](screenshots/shows.png) |
+
+| قسمت‌های سریال | جست‌وجو |
+| --- | --- |
+| ![قسمت‌های سریال نمونه](screenshots/details.png) | ![صفحه جست‌وجوی صدنما](screenshots/search.png) |
+
+[مشاهدهٔ صفحهٔ دربارهٔ ما](screenshots/about.png)
 
 ## چطور نصب کنم؟
 
