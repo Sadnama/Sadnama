@@ -10,6 +10,14 @@
 
 **[دانلود آخرین نسخهٔ صدنما برای تلویزیون (APK)](https://github.com/Sadnama/Sadnama/releases/latest/download/SadNama.apk)** · [مشاهدهٔ نسخه‌ها](https://github.com/Sadnama/Sadnama/releases)
 
+## تصاویری از برنامه
+
+تصاویر زیر از نسخهٔ آزمایشی ۱.۰.۱۴ روی شبیه‌ساز Android TV گرفته شده‌اند.
+
+| جست‌وجو | دربارهٔ ما |
+| --- | --- |
+| ![صفحه جست‌وجوی صدنما](screenshots/search.png) | ![صفحه دربارهٔ صدنما](screenshots/about.png) |
+
 ## چطور نصب کنم؟
 
 یکی از سه روش زیر را انتخاب کنید. در هر روش، فایل `SadNama.apk` را روی **تلویزیون** باز می‌کنید.
